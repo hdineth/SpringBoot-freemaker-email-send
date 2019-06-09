@@ -1,0 +1,38 @@
+{
+	"info": {
+		"_postman_id": "9de1a705-4f8c-4bbd-b32b-97bf0676c831",
+		"name": "EmailSendPostmanScript",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "sendmail",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n\t\"from\":\"add-your-email-here\",\n\t\"to\":\"add-recipient's-email-here\",\n\t\"subject\":\"Test\",\n\t\"content\":\"you-email-content-here\",\n\t\"name\":\"recipient's-name-here\"\n}"
+				},
+				"url": {
+					"raw": "localhost:8080/sendmail",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"sendmail"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
