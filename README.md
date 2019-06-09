@@ -1,7 +1,7 @@
 # SpringBoot-freemaker-email-send
 Send an Email using Spring boot and Apache Freemarker
 
-<h4>Inspired by: https://memorynotfound.com/spring-mail-sending-email-freemarker-html-template-example/</h4>
+<h4>Inspired from: https://memorynotfound.com/spring-mail-sending-email-freemarker-html-template-example/</h4>
 
 This project allows you to send a cutomized email with attachments to a given email addres, subject, and content.
 
